@@ -133,3 +133,29 @@ cd "/the path of your folder"
 ```bash
 streamlit run app.py
 ```
+
+
+
+## 📦 Dependencies
+- streamlit
+- pandas
+- numpy
+- scikit-learn
+- joblib
+
+  
+## 🌱 Future Improvements
+- Add advanced ML models (e.g., Random Forest, XGBoost)
+- Add login system and database to store past results
+- Improve UI with custom Streamlit components
+- Deploy on cloud platform (like Streamlit Cloud / Heroku)
+
+## 🔒 License
+This project is built for academic purposes only.
+Not for commercial use.
+
+## 📬 Contact
+If you have any questions or suggestions, feel free to reach out via GitHub or email.
+
+## ⭐ Don’t forget to star the repository if you like the project!
+
