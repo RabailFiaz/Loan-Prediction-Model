@@ -121,7 +121,7 @@ python -m venv venv
 source venv/bin/activate  # For Windows: venv\Scripts\activate
 ```
 
-### Step 3: move to the directory
+### Step 3: Open your terminal move to the directory
 
 
 ```bash
