@@ -90,17 +90,16 @@ The model uses the **Gaussian Naive Bayes** algorithm, trained on a public datas
 ## 🗂 Project Structure
 
 Loan-Prediction-Model/
-│
-├── dataset/
-│ └── loan_data.csv
-│
-├── model/
-│ └── loan_model.pkl
-│
-├── app.py # Streamlit frontend
-├── model_training.py # Model training script
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+- │
+- ├── dataset/
+- │ └── loan_data.csv
+- │
+- ├── model/
+- │ └── loan_model.pkl
+- │
+- ├── app.py # Streamlit frontend
+- ├── model_training.py # Model training script
+- └── README.md # Project documentation
 
 
 ---
@@ -113,3 +112,24 @@ Loan-Prediction-Model/
 ```bash
 git clone https://github.com/RabailFiaz/Loan-Prediction-Model.git
 cd loan-prediction-app
+```
+
+### Step 2: (Optional) Create a virtual environment
+
+```bash
+python -m venv venv
+source venv/bin/activate  # For Windows: venv\Scripts\activate
+```
+
+### Step 3: move to the directory
+
+
+```bash
+cd "/the path of your folder"
+```
+### Step 4: Run the Streamlit app
+
+
+```bash
+streamlit run app.py
+```
